@@ -1,0 +1,5 @@
+DIR_NAME = sysCtrl
+
+SRCS = usrMainAppEntry.c
+
+SOURCES += $(foreach file,$(SRCS),$(wildcard $(DIR_NAME)/$(file)))

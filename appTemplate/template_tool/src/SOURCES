@@ -1,0 +1,5 @@
+DIR_NAME = src
+
+SRCS = main.c
+
+SOURCES += $(foreach file,$(SRCS),$(wildcard $(DIR_NAME)/$(file)))

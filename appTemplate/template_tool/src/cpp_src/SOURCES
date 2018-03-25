@@ -1,0 +1,5 @@
+DIR_NAME = src/cpp_src
+
+SRCS = test.cpp
+
+SOURCES += $(foreach file,$(SRCS),$(wildcard $(DIR_NAME)/$(file)))
