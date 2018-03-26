@@ -28,3 +28,17 @@ alias grep='grep --color'
 
 # 安装DosToUnix 工工具
 apt-get install dos2unix
+
+# 安装常见的编译环境
+apt-get install build-essential
+apt-get install bison
+apt-get install flex
+apt-get install swig
+apt-get install pkg-config
+apt-get install autoconf automake libtool
+#开发库
+apt-get install libssk-dev
+apt-get install libpcap-dev
+apt-get install zlb1g-dev
+apt-get install python-dev
+
